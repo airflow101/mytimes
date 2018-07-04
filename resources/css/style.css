@@ -34,14 +34,6 @@ a{
 }
 
 
-/**/
-
-div{
-  border: 1px solid black;
-}
-
-/**/
-
 /*Main content CSS*/
 main, .column{
   display: flex;
@@ -104,4 +96,32 @@ background-image: url("../images/img-story-2.png");
 
 .story3{
 background-image: url("../images/img-story-3.png");
+}
+
+
+/**Flexing**/
+.stories, .story{
+  display: flex;
+  justify-content: space-between;
+}
+
+.story{
+  flex-direction: column;
+}
+
+.bites span{
+  margin: 0;
+  border-bottom: 1px solid black;
+  background-color: WhiteSmoke;
+font-family: Verdana;
+font-size: 12px;
+color: DimGray;
+display: block;
+padding: 11px 20px
+}
+
+.bites h3{
+  font-size: 16px;
+font-weight: bold;
+text-align: center;
 }
