@@ -67,3 +67,41 @@ main{
 .column.small {
   width: 240px;
 }
+
+div p{
+  font-family: Georgia;
+font-size: 17px;
+color: black;
+}
+
+.image{
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  font-family: Georgia;
+font-weight: bold;
+font-size: 30px;
+color: white;
+text-align: center;
+}
+
+.main-story{
+  background-image: url("../images/img-story-main.png");
+  text-align: left;
+}
+
+.main-story span{
+  font-size: 40px;
+}
+
+.story1{
+  background-image: url("../images/img-story-1.png");
+}
+
+.story2{
+background-image: url("../images/img-story-2.png");
+}
+
+.story3{
+background-image: url("../images/img-story-3.png");
+}
